@@ -2,7 +2,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters
 import asyncio
 from stock_crawling import dictionary
 
-bot_token = '6082136191:AAG35lMMeZnAxVUT9V-OrFn_aTILFvfGxys'
+bot_token = '텔레그램 토큰'
 
 #크롤링한 내용 채팅
 async def send_message(update, context):
